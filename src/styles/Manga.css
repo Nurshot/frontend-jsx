@@ -1,0 +1,38 @@
+.manga-detail {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .manga-detail h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .manga-detail p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .chapters-list {
+    margin-top: 2rem;
+  }
+  
+  .chapter-item {
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .chapter-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .chapter-item p {
+    margin: 0.5rem 0 0;
+  }
