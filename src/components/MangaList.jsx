@@ -8,6 +8,7 @@ const MangaList = ({ mangas }) => {
       {mangas.map(manga => (
         <div key={manga.id} className="manga-item">
           <Link to={`/manga/${manga.id}`}>
+            <img src={manga.cover_image} alt={manga.title} />
             <h2>{manga.title}</h2>
           </Link>
           <p>{manga.description}</p>
